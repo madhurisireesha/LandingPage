@@ -1,0 +1,109 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-size: cover;
+
+}
+.maincontainer{
+    height:120vh;
+    display:flex;
+    flex-direction: column;
+    background-image:radial-gradient(#FAD5A5,#FF7F50);
+    background-size: cover;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-around;
+    cursor:pointer;
+    margin-left: 60%;
+}
+div a{
+    margin-right: 20px;
+    font-weight: bold;
+
+}
+.prointro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.desc{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+}
+.desc div{
+    margin-bottom: 2%;
+}
+button{
+    background-color: orangered;
+    font-weight: bold;
+    padding:15px;
+    color:whitesmoke;
+    font-size: 15px;
+}
+.profeatures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+.profeatures div{
+    margin-bottom: 2%;;
+}
+.features{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:space-around;
+    margin-right: 10px;
+    width:50%;
+    margin-left:20px;
+}
+.im{
+    width:20%;
+    height:80%;
+    border-radius:45px;
+    margin-left: 70px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+}
+.proimg{
+    border-radius: 65px;
+    margin-right: 3%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
